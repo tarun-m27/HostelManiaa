@@ -1,6 +1,6 @@
 # HostelMania
 
-HostelMania is a ( hostel management ) mobile application designed to simplify hostel management with features such as student registration, resident listing, and timetable management. The app enables administrators to efficiently register students, manage their details, and access searchable resident lists for easy record verification. Additionally, it includes a timetable module for creating and organizing hostel schedules for activities and events.
+HostelMania is a mobile application designed to simplify hostel management with features such as student registration, resident listing, and timetable management. The app enables administrators to efficiently register students, manage their details, and access searchable resident lists for easy record verification. Additionally, it includes a timetable module for creating and organizing hostel schedules for activities and events.
 
 ---
 
