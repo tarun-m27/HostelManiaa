@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base Application Theme -->
+    <style name="Theme.HostelManiaa" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#BB86FC</item>
+        <item name="colorPrimaryVariant">#3700B3</item>
+        <item name="colorSecondary">#03DAC6</item>
+        <item name="android:statusBarColor">#121212</item>
+        <item name="android:windowBackground">#121212</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+    </style>
+
+    <!-- Custom Button Style -->
+    <style name="ButtonStyle" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">#1F1B24</item>
+        <item name="android:textColor">#BB86FC</item>
+    </style>
+
+</resources>
+
+
+    <!--<resources>-->
+<!--    <style name="TitleStyle">-->
+<!--        <item name="android:textSize">28sp</item>-->
+<!--        <item name="android:textColor">@color/titleColor</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:shadowColor">#80000000</item>-->
+<!--        <item name="android:shadowDx">2</item>-->
+<!--        <item name="android:shadowDy">2</item>-->
+<!--        <item name="android:shadowRadius">4</item>-->
+<!--    </style>-->
+
+<!--    <style name="ButtonStyle">-->
+<!--        <item name="android:textSize">18sp</item>-->
+<!--        <item name="android:textColor">@color/buttonTextColor</item>-->
+<!--        <item name="android:padding">12dp</item>-->
+<!--        <item name="android:fontFamily">sans-serif-medium</item>-->
+<!--    </style>-->
+<!--</resources>-->

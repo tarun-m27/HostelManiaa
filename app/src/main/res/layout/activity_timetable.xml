@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Heading -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Food Timetable"
+            android:textColor="#BB86FC"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Display the timetable for each day -->
+        <TextView
+            android:id="@+id/mondayTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="30dp"
+            android:text="Monday"
+            android:textColor="#BB86FC"
+            android:textStyle="bold"
+            app:lineHeight="30dp" />
+
+        <TextView
+            android:id="@+id/mondayMealTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="30dp"
+            android:paddingStart="16dp"
+            android:textColor="#BB86FC"
+            app:lineHeight="30dp" />
+
+        <TextView
+            android:id="@+id/tuesdayTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="30dp"
+            android:text="Tuesday"
+            android:textColor="#BB86FC"
+            android:textStyle="bold"
+            app:lineHeight="30dp" />
+
+        <TextView
+            android:id="@+id/tuesdayMealTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="30dp"
+            android:paddingStart="16dp"
+            android:textColor="#BB86FC"
+            app:lineHeight="30dp" />
+
+        <TextView
+            android:id="@+id/wednesdayTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="30dp"
+            android:text="Wednesday"
+            android:textColor="#BB86FC"
+            android:textStyle="bold"
+            app:lineHeight="30dp" />
+
+        <TextView
+            android:id="@+id/wednesdayMealTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="30dp"
+            android:paddingStart="16dp"
+            android:textColor="#BB86FC"
+            app:lineHeight="30dp" />
+
+        <TextView
+            android:id="@+id/thursdayTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="30dp"
+            android:text="Thursday"
+            android:textColor="#BB86FC"
+            android:textStyle="bold"
+            app:lineHeight="30dp" />
+
+        <TextView
+            android:id="@+id/thursdayMealTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="30dp"
+            android:paddingStart="16dp"
+            android:textColor="#BB86FC"
+            app:lineHeight="30dp" />
+
+        <TextView
+            android:id="@+id/fridayTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="30dp"
+            android:text="Friday"
+            android:textColor="#BB86FC"
+            android:textStyle="bold"
+            app:lineHeight="30dp" />
+
+        <TextView
+            android:id="@+id/fridayMealTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="30dp"
+            android:paddingStart="16dp"
+            android:textColor="#BB86FC"
+            app:lineHeight="30dp" />
+
+        <TextView
+            android:id="@+id/saturdayTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="30dp"
+            android:text="Saturday"
+            android:textColor="#BB86FC"
+            android:textStyle="bold"
+            app:lineHeight="30dp" />
+
+        <TextView
+            android:id="@+id/saturdayMealTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="30dp"
+            android:paddingStart="16dp"
+            android:textColor="#BB86FC"
+            app:lineHeight="30dp" />
+
+        <TextView
+            android:id="@+id/sundayTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="30dp"
+            android:text="Sunday"
+            android:textColor="#BB86FC"
+            android:textStyle="bold"
+            app:lineHeight="30dp" />
+
+        <TextView
+            android:id="@+id/sundayMealTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="30dp"
+            android:paddingStart="16dp"
+            android:textColor="#BB86FC"
+            app:lineHeight="30dp" />
+
+        <Button
+            android:id="@+id/editTimetableButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="Edit Time Table"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+
+
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".TimeTableActivity"-->
+<!--    tools:ignore="ExtraText">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/timetableTextView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:text="Today's Food Timetable"-->
+<!--        android:textColorHint="#673AB7"-->
+<!--        android:textColor="#FFBB86FC"-->
+<!--        android:textSize="34sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/morningMealEditText"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        android:hint="Morning Meal"-->
+<!--        android:padding="16dp"-->
+<!--        android:textColor="#FFBB86FC"-->
+<!--        android:textColorHint="#673AB7"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/timetableTextView" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/afternoonMealEditText"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:hint="Afternoon Meal"-->
+<!--        android:padding="16dp"-->
+<!--        android:textColor="#FFBB86FC"-->
+<!--        android:textColorHint="#673AB7"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/morningMealEditText" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/nightMealEditText"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:hint="Night Meal"-->
+<!--        android:padding="16dp"-->
+<!--        android:textColor="#FFBB86FC"-->
+<!--        android:textColorHint="#673AB7"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/afternoonMealEditText" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/saveButton"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:text="Save Timetable"-->
+<!--        android:textColorHint="#673AB7"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="16sp"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:layout_marginLeft="32dp"-->
+<!--        android:layout_marginRight="32dp"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/nightMealEditText"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent" />-->
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->

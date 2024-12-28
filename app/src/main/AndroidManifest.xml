@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.hostelmaniaa">
+
+    <application
+        android:allowBackup="true"
+        android:label="HostelManiaa"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HostelManiaa">
+
+        <!-- ShowStudentsActivity activity -->
+        <activity android:name=".ShowStudentsActivity"
+            android:exported="true" />
+
+        <!-- StudentDetailsActivity activity -->
+        <activity android:name=".StudentDetailsActivity"
+            android:exported="true" />
+
+        <!-- MainActivity activity (added android:exported="true") -->
+        <activity android:name=".MainActivity"
+            android:exported="true"
+            tools:ignore="ExtraText">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            android:exported="true" <!-- Added here -->
+        </activity>
+
+        <!-- Add TimeTableActivity declaration here -->
+        <activity android:name=".TimeTableActivity"
+            android:exported="true" />
+
+        <activity android:name=".EditTimeTableActivity">
+            <!-- Optionally, add an intent-filter if needed -->
+        </activity>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/et_student_name"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Student Name"
+            android:textColorHint="#673AB7"
+            android:textColor="#FFBB86FC"
+        android:inputType="textPersonName"
+             />
+
+        <EditText
+            android:id="@+id/et_usn"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginBottom="16dp"
+            android:hint="USN"
+            android:textColorHint="#673AB7"
+            android:textColor="#FFBB86FC"
+
+            android:inputType="text"
+             />
+
+        <EditText
+            android:id="@+id/et_dob"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Date of Birth (DD/MM/YYYY)"
+            android:textColorHint="#673AB7"
+            android:textColor="#FFBB86FC"
+            android:inputType="date"
+             />
+
+        <EditText
+            android:id="@+id/et_room_no"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Room Number"
+            android:textColorHint="#673AB7"
+            android:textColor="#FFBB86FC"
+            android:inputType="number"
+             />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"/>
+    </LinearLayout>
+</ScrollView>
